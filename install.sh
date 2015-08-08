@@ -35,6 +35,6 @@ git ls-tree -r HEAD --name-only --full-tree \
 #	| sed -e "/\/\.vim\//d" \
 exit 0
 
-vim -c 'PluginInstall'
+vim -c '+PluginInstall'
 
 
